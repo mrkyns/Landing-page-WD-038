@@ -80,6 +80,60 @@ p {
   font-weight: 600;
 }
 
+/* Class for Hero */
+
+.hero {
+    padding-top: 128px;
+    background: linear-gradient(180deg,#e7daed,#d8bfe3);
+    border: 1px solid #5c4678;
+    border-top: none;
+    text-align: center;
+}
+
+.hero .container {
+    position: relative;
+    z-index: 2;
+}
+.container {
+    max-width: 1128px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+svg[Attributes Style] {
+    width: 100%;
+    height: 100;
+}
+svg:not(:root) {
+    overflow-clip-margin: content-box;
+    overflow: hidden;
+}
+.hero__browser-image img {
+    height: 100%;
+    width: 100%;
+    border: 4px solid #fff;
+    box-sizing: border-box;
+    border-top: unset;
+    border-bottom-left-radius: 21px;
+    border-bottom-right-radius: 21px;
+}
+.hero__browser-image-loaded:first-of-type {
+    animation-name: fader;
+    animation-delay: 4s;
+    animation-duration: 1s;
+    z-index: 20;
+}
+.hero__browser-image {
+    position: absolute;
+    margin-top: -3px;
+}
+.hero__browser {
+    max-width: 100%;
+    margin-bottom: -16%;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
 /* Class for FEATERS section */
 
 .features {
