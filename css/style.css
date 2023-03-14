@@ -148,10 +148,10 @@ p {
   margin: 0 auto;
 }
 
-svg[Attributes Style] {
+/* svg[Attributes Style] {
   width: 100%;
   height: 100;
-}
+} */
 svg:not(:root) {
   overflow-clip-margin: content-box;
   overflow: hidden;
@@ -161,7 +161,6 @@ svg:not(:root) {
   position: relative;
   height: 600px;
 }
-
 
 .hero__browser-image-loaded:first-of-type {
   animation-name: fader;
