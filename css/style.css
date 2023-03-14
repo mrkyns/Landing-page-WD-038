@@ -92,7 +92,6 @@ p {
 
 .hero h1 {
   font-size: 64px;
-  width: 50%;
   margin: 0 auto;
   color: #391f5b;
   font-weight: 600;
@@ -157,6 +156,12 @@ svg:not(:root) {
   overflow-clip-margin: content-box;
   overflow: hidden;
 }
+
+.hero__browser-image-container {
+  position: relative;
+  height: 600px;
+}
+
 .hero__browser-image img {
   height: 100%;
   width: 100%;
@@ -178,9 +183,10 @@ svg:not(:root) {
 }
 .hero__browser {
   max-width: 100%;
-  margin-bottom: -16%;
-  margin-left: 16px;
-  margin-right: 16px;
+}
+
+.hero__browser img {
+  width: 100%git;
 }
 
 /* Class for FEATERS section */
