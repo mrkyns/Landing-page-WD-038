@@ -20,7 +20,7 @@
   display: inline;
 }
 
-.container div:last-child {
+.navigation .container div:last-child {
   margin-right: 32px;
 }
 
@@ -32,5 +32,4 @@
   margin-right: 32px;
   color: #76226f;
   font-weight: 600;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
