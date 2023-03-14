@@ -44,6 +44,10 @@ p {
   }
 }
 
+.site {
+  width: 100%;
+}
+
 /* Class for FEATERS section */
 
 .features {
