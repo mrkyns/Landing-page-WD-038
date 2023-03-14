@@ -48,6 +48,38 @@ p {
   width: 100%;
 }
 
+/* Class for header */
+
+.navigation_header {
+  background: linear-gradient(0deg, #e7daed, #d8bfe3);
+  border: 1px solid #5c4678;
+  border-top: none;
+  border-bottom: none;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 42px;
+}
+.navigation_header li {
+  display: inline;
+}
+
+.navigation .container div:last-child {
+  margin-right: 32px;
+}
+
+.navigation_header ul {
+  display: flex;
+  align-items: center;
+}
+.navigation_header li {
+  margin-right: 32px;
+  color: #76226f;
+  font-weight: 600;
+}
+
 /* Class for FEATERS section */
 
 .features {
