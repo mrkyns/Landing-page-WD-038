@@ -293,3 +293,69 @@ svg:not(:root) {
     rgba(179, 132, 201, 0.4)
   );
 }
+
+/* Class for Footer */
+
+footer {
+  background: #391f5b;
+  border: 1px solid #5c4678;
+  padding: 64px 32px;
+}
+
+.footer__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__container .footer__email-section {
+  width: 50%;
+  text-align: right;
+}
+
+footer p {
+  font-size: 16px;
+  line-height: 21px;
+  margin-bottom: 32px;
+}
+
+footer h2 {
+  font-size: 26px;
+  margin-bottom: 8px;
+}
+
+.footer__container input {
+  border-radius: 42px;
+  padding: 16px 32px;
+  width: 200px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #391f5b;
+  font-size: 14px;
+  outline: unset;
+  border: 1px solid #b384c9;
+  font-family: Quicksand;
+  box-shadow: 0 0 4px hsl(0deg 0% 100% / 30%), 0 0 12px hsl(0deg 0% 100% / 20%),
+    1px 1px 4px rgb(57 31 91 / 60%), 4px 4px 16px rgb(57 31 91 / 32%);
+}
+
+.footer__container .email__button {
+  font-family: Quicksand;
+  margin-left: 16px;
+  background: linear-gradient(
+    180deg,
+    hsla(0, 0%, 100%, 0.84) -38.04%,
+    rgba(231, 218, 237, 0.84) 31.7%,
+    rgba(231, 218, 237, 0.84) 51.83%,
+    rgba(216, 191, 227, 0.84)
+  );
+  border: 1px solid rgba(231, 218, 237, 0.5);
+  border-radius: 42px;
+  font-size: 16px;
+  padding: 16px 28px;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #391f5b;
+}
